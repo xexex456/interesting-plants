@@ -30,18 +30,18 @@ main {
   padding: 15px;
   margin-bottom: 15px;
   border-radius: 10px;
-  max-width: 500px;
+  width: 90%;
+  max-width: 600px; 
   margin-left: auto;
   margin-right: auto;
   box-sizing: border-box;
 }
 
 .plant img {
-  wdisplay: block;
+  display: block;
   width: 100%;
-  max-width: 500px;
-  height: auto;   
-  margin: 20px auto;
+  height: auto;
+  margin: 0 0 20px 0;
   border-radius: 12px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
   transition: transform 0.3s ease;
