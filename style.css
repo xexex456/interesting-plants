@@ -104,3 +104,29 @@ footer {
 .feature p {
   color: #666;
 }
+@media (max-width: 600px) {
+  .plant {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .plant img {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+ 
+  .plant p, 
+  .plant li {
+    font-size: 1.15em;
+    line-height: 1.6;
+  }
+
+  .plant h2 {
+    font-size: 1.8em; 
+  }
+  
+  .plant h3 {
+    font-size: 1.4em;
+  }
+}
